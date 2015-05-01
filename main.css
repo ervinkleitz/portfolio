@@ -1,0 +1,44 @@
+body {
+	background-image: url("img/sf.jpg");
+	background-size: 100% no-repeat;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.nav li {
+	padding-right: 1.5em;
+}
+
+.my-title h1 {
+	border-bottom: 1px solid black;
+	margin: auto 1em;
+	padding-bottom: 10px;
+}
+
+.title-name {
+	padding-top: 1em;
+	border-bottom: 1px dotted gray;
+}
+
+.my-body {
+	padding-top: 10em;
+	max-width: 40em;
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 3px;
+}
+
+.my-body h4 {
+	text-transform: lowercase;
+}
+
+.section-text {
+	margin: auto 1em;
+}
