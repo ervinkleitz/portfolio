@@ -18,12 +18,16 @@ body {
 	padding-right: 1.5em;
 }
 
+.section {
+	padding-bottom: 3em;
+}
+
 .my-title {
 	padding-bottom: 5.5em;
 }
 
 .my-title img {
-	height: 8em;
+	height: 7em;
 	margin-bottom: 2em;
 }
 
@@ -34,19 +38,20 @@ body {
 	padding-bottom: 10px;
 }
 
-.normal-text, .about-me-title {
+.normal-text, .title {
 	margin: 0 50px;
 	text-align: justify;
 	text-justify: inter-word;
 }
 
 .normal-text {
+	padding-top: 1em;
 	font-size: 20px;
 	text-indent: 30px;
 } 
 
-.about-me-title, .skills-title {
-	padding: 1em 0;
+.title {
+	padding: 1.5em 0;
 	border-bottom: 1px solid gray;
 }
 
@@ -66,14 +71,27 @@ body {
 	margin: auto 1.5em;
 }
 
-.skills-images {
+.skills-images, .projects-images {
 	text-align: center;
+	padding: 0 1em;
 }
 
-#skills img {
+.skills-images img {
 	width: 100px;
 	display: inline-block;
 	padding-right: 1em;
 }
+
+.projects-images img {
+	padding-top: 1em;
+	height: 300px;
+	width: 350px;
+	margin: 0 auto;
+}
+
+.project-text {
+	margin: 15px 50px;
+}
+
 
 

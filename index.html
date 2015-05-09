@@ -29,9 +29,9 @@
 				<div class="collapse navbar-collapse" id="collapsable-navbar">
 					<ul class="nav navbar-nav">
 						<li><a href="#" id="about-me-button">About Me<span class="sr-only">(current)</span></a></li>
-						<li><a href="#" id="skills-button">Skills</a></li>
-						<li><a href="#">Resume</a></li>
-						<li><a href="#">Projects</a></li>
+						<li><a href="#" id="skills-button">Language/Tools</a></li>
+						<li><a href="#" id="projects-button">Projects</a></li>
+						<li><a href="#" id="contact-button">Contact</a></li>
 					</ul>
 				</div>
 			</div> 
@@ -49,37 +49,37 @@
 				</div>
 				<!--title end-->
 				<!--start of skills div-->
-				<div id="skills">
-					<h3 class="skills-title">Skills and Tools</h3>
-					<div class="skills-images"><br>
-						<img src="img/html5.png" class="img-responsive" alt="html5">
-						<img src="img/css3.png" class="img-responsive" alt="css3">
-						<img src="img/js.svg.png" class="img-responsive" alt="javascript">
-						<img src="img/express.png" class="img-responsive" alt="expressjs">
-						<img src="img/nodejs.png" class="img-responsive" alt="nodejs">
-						<img src="img/angular.png" class="img-responsive" alt="angularjs">
-						<img src="img/mongodb.png" class="img-responsive" alt="mongodb">
-						<img src="img/github.png" class="img-responsive" alt="github">
-						<img src="img/npm.png" class="img-responsive" alt="npm">
-						<img src="img/jquery.png" class="img-responsive" alt="jquery">
-						<img src="img/git.png" class="img-responsive" alt="git">
+				<div id="skills" class="section">
+					<h3 class="title">Languages and Tools</h3>
+					<div class="skills-images" id="images-div"><br>
+					<!--images go here-->
 					</div>
 				</div>
 				<!--end of skills-->
 				<!--start of about me-->
-				<div class="text-left div-text">
-					<h3 class="about-me-title" id="about-me">About Me</h3>
+				<div class="text-left section" id="about-me">
+					<h3 class="title">About Me</h3>
 				 	<div class="normal-text">
-						<p>I am Ervin Kleitz Gonzales, a San Francisco-based Engineering grad, Full Stack Developer, Entrepreneur, and Fooddie. I create clean and easy-to-use web apps. </p>
+						<p>I am Ervin Kleitz Gonzales, a San Francisco-based doulbe major Engineering grad, Full Stack Developer, Entrepreneur, and Fooddie. I create clean and easy-to-use web applications. </p>
 						<p>My first dabblings with code (aside from the ones normally in school) began with me tinkering around with bits and pieces of MySpace and Friendster code. It felt empowering and liberating being able to manipulate code and see the results actually take shape before my eyes. I eventually began a love affair with coding, especially with JavaScript, as I realized that this was something I would love to be doing for life.</p>
-						<p>When not coding, I spend my free time with family, playing MMORPGs, watching Anime (yep, I am a geek), running, and, trying out new food.</p>
+						<p>When not coding, I spend my free time with family, playing MMORPGs, watching Anime (yep, I'm a geek) and horror movies, running, and, trying out new food.</p>
 					</div>
 				</div>
 				<!--end of about me-->
 			</div>
 			
-			<div class="resume"></div>
-			<div class="projects"></div>
+			<div class="text-left section" id="projects">
+				<h3 class="title">Projects</h3>
+				<div class="projects-images">
+					<a href="http://ervinkleitz.github.io/mean-homework/week3/poke-guess/landing.html"><img src="img/project1-bw.png" class="img-responsive projects" id="project1" onmouseover="onMouseHover();" onmouseout="onMouseOff();"></a>
+				</div>
+				<p class="text-center project-text">Poke Guess is a Full-Stack Web App, essentially a game, that makes players guess the name of a PokeMon based on a random image pulled via API.<br><b>Front-End tools/languages:</b><br>jQuery, AJAX, JSON, HTML, CSS, and Bootstrap. <br><b>Back-end tools/languages:</b><br>NodeJS and ExpressJS<br>Source <a href="https://github.com/ervinkleitz/mean-homework/tree/master/week3/poke-guess">here</a></p>
+
+			</div>
+			<div class="contact text-left section" id="contact">
+				<h3 class="title">Contact Me</h3>
+				<p class="normal-text">Shoot me an email at <a href="mailto: hi@ervinkleitz.com">hi@ervinkleitz.com</a> or add me on <a href="www.linkedin.com/in/ervinkleitz">LinkedIn</a>. I'd love to hear form you. Let's talk about things!</p>
+			</div>
 
 		</div>
 		<!--end of my-info-->
