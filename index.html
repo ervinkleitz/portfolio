@@ -5,68 +5,84 @@
 	<meta charset="utf-8">
 	<script src="bootstrap/js/jquery-2.1.3.min.js"></script>
 	<script src="bootstrap/js/bootstrap.js"></script>
+	<script src="script.js"></script>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme-simplex.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Portfolio of Ervin Kleitz Gonzlaes, Full-stack Web Developer | Web Engineer</title>
-	
+	<title>Portfolio of Ervin Kleitz Gonzlaes, Full-stack Web Developer | Full Stack Web Engineer</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Yanone+Kaffeesatz:200,400,700' rel='stylesheet' type='text/css'>
-<!-- 	
-	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+
 </head>
 <body>
-
-
-	<div class="navbar navbar-default my-menu">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			  
-			</div>
-
-			<div class="collapse navbar-collapse" id="collapsable-navbar">
-				<ul class="nav navbar-nav">
-					<li><a href="#me">Me<span class="sr-only">(current)</span></a></li>
-					<li><a href="#">Skills</a></li>
-					<li><a href="#">Resume</a></li>
-					<li><a href="#">Projects</a></li>
-				</ul>
-			</div>
+	<div class="container content">
+		<!--start of navbar-->
+		<div class="navbar navbar-default my-menu">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="collapsable-navbar">
+					<ul class="nav navbar-nav">
+						<li><a href="#" id="about-me-button">About Me<span class="sr-only">(current)</span></a></li>
+						<li><a href="#" id="skills-button">Skills</a></li>
+						<li><a href="#">Resume</a></li>
+						<li><a href="#">Projects</a></li>
+					</ul>
+				</div>
+			</div> 
 		</div>
+		<!--end of navbar-->
+		<div class="my-info">
+			<!--start of my-info div-->
+			<div class="text-center">
+				<!--title-->
+				<div class="my-title container-fluid">
+				   <img src="img/me.jpg" class="img-circle">
+					<h1>Ervin Kleitz Gonzales</h1>
+					<h4 id="job-title"></h4>
+					<h7><a href="mailto:hi@ervinkleitz.com">hi@ervinkleitz.com</a></h7>
+				</div>
+				<!--title end-->
+				<!--start of skills div-->
+				<div id="skills">
+					<h3 class="skills-title">Skills and Tools</h3>
+					<div class="skills-images"><br>
+						<img src="img/html5.png" class="img-responsive" alt="html5">
+						<img src="img/css3.png" class="img-responsive" alt="css3">
+						<img src="img/js.svg.png" class="img-responsive" alt="javascript">
+						<img src="img/express.png" class="img-responsive" alt="expressjs">
+						<img src="img/nodejs.png" class="img-responsive" alt="nodejs">
+						<img src="img/angular.png" class="img-responsive" alt="angularjs">
+						<img src="img/mongodb.png" class="img-responsive" alt="mongodb">
+						<img src="img/github.png" class="img-responsive" alt="github">
+						<img src="img/npm.png" class="img-responsive" alt="npm">
+						<img src="img/jquery.png" class="img-responsive" alt="jquery">
+						<img src="img/git.png" class="img-responsive" alt="git">
+					</div>
+				</div>
+				<!--end of skills-->
+				<!--start of about me-->
+				<div class="text-left div-text">
+					<h3 class="about-me-title" id="about-me">About Me</h3>
+				 	<div class="normal-text">
+						<p>I am Ervin Kleitz Gonzales, a San Francisco-based Engineering grad, Full Stack Developer, Entrepreneur, and Fooddie. I create clean and easy-to-use web apps. </p>
+						<p>My first dabblings with code (aside from the ones normally in school) began with me tinkering around with bits and pieces of MySpace and Friendster code. It felt empowering and liberating being able to manipulate code and see the results actually take shape before my eyes. I eventually began a love affair with coding, especially with JavaScript, as I realized that this was something I would love to be doing for life.</p>
+						<p>When not coding, I spend my free time with family, playing MMORPGs, watching Anime (yep, I am a geek), running, and, trying out new food.</p>
+					</div>
+				</div>
+				<!--end of about me-->
+			</div>
+			
+			<div class="resume"></div>
+			<div class="projects"></div>
+
+		</div>
+		<!--end of my-info-->
 	</div>
-    
-    <div class="my-body container">
-        <section class="text-center" id="me">
-            <div class="my-title container-fluid">
-                <h1>Ervin Kleitz Gonzales</h1>
-                <h4>Full Stack Web Engineer | Entrepreneur | Gaming Enthusiast </h4>
-                <h7><a href="mailto:hi@ervinkleitz.com">hi@ervinkleitz.com</a></h7>
-            </div>
-
-
-            <div class="text-left section-text">
-              <h3 class="title-name">Me</h3>
-                <p> 
-                I am Ervin Kleitz Gonzales, a San Francisco-based Full Stack Engineer, Entrepreneur, and Fooddie. I'm a pixel pusher and code crafter whose passion is building clean and user-friendly web applications.  I dote over JavaScript and use it as my primary tool to breathe ideas into something more tangible and the normal person would appreaciate.<br><br>When not coding (and not learning other coding languages), I play MMORPGs, watch anime, read manga, and sing. It is my greatest dream to travel the world and experience different cultures.
-                </p>
-            </div>
-        </section>
-
-        <section class="container" id="skills">
-            <div class="col-md-2">
-                <img src="img/html5.png" class="img-responsive" alt="html5">
-            </div>
-        </section>
-
-        <section class="resume"></section>
-        <section class="projects"></section>
-
-    </div>
-
 </body>
 </html>

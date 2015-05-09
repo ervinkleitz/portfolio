@@ -1,44 +1,79 @@
 body {
-	background-image: url("img/sf.jpg");
-	background-size: 100% no-repeat;
+    background-image: url('img/my-sf.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+  	display: inline-block;
+  	float: none;
+  	vertical-align: top;
 }
 
 .navbar .navbar-collapse {
-  text-align: center;
+  	text-align: center;
 }
 
 .nav li {
 	padding-right: 1.5em;
 }
 
+.my-title {
+	padding-bottom: 5.5em;
+}
+
+.my-title img {
+	height: 8em;
+	margin-bottom: 2em;
+}
+
 .my-title h1 {
 	border-bottom: 1px solid black;
+	bottom: 100px;
 	margin: auto 1em;
 	padding-bottom: 10px;
 }
 
-.title-name {
-	padding-top: 1em;
-	border-bottom: 1px dotted gray;
+.normal-text, .about-me-title {
+	margin: 0 50px;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
-.my-body {
-	padding-top: 10em;
+.normal-text {
+	font-size: 20px;
+	text-indent: 30px;
+} 
+
+.about-me-title, .skills-title {
+	padding: 1em 0;
+	border-bottom: 1px solid gray;
+}
+
+.my-info {
+	padding-top: 7em;
 	max-width: 40em;
+	margin: 0 auto;
 	background-color: rgba(255,255,255,0.9);
 	border-radius: 3px;
 }
 
-.my-body h4 {
+.my-title h4 {
 	text-transform: lowercase;
 }
 
 .section-text {
-	margin: auto 1em;
+	margin: auto 1.5em;
 }
+
+.skills-images {
+	text-align: center;
+}
+
+#skills img {
+	width: 100px;
+	display: inline-block;
+	padding-right: 1em;
+}
+
+
