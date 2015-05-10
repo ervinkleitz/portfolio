@@ -55,7 +55,6 @@ $(document).ready(function(){
 		images[i];
 		imgArray.push( '<img src="img/' + images[i] + '.png" class="img-responsive" alt="' + images[i] + '">' );
 	}
-
 	document.getElementById( 'images-div' ).innerHTML = '<br>' + imgArray.join('');
 	//***** Images *****//
 
