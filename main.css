@@ -88,14 +88,14 @@ body {
 }
 
 .projects-images img {
-	padding-top: 1em;
+	padding-top: 1.5em;
 	height: 300px;
 	width: 350px;
 	margin: 0 auto;
 }
 
 .project-text {
-	margin: 15px 50px;
+	margin: 15px 100px;
 }
 
 .contact {
