@@ -2,6 +2,7 @@ body {
     background-image: url('img/my-sf.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .content {
