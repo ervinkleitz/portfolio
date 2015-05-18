@@ -22,7 +22,7 @@ $(document).ready(function(){
 		steadyCtr = 0;
 		images = ['html5','css3','javascript','expressjs','nodejs','angularjs','mongodb','github','npm','jquery','git','ajax'],
 		titles 
-		= ['full-stack engineer    ', 'entrepreneur    ', 'foodie    ', ' javascript web developer    ', 'gaming enthusiast    '];
+		= ['full-stack javascript engineer    ', 'entrepreneur    ', 'foodie    ', ' javascript web developer    ', 'gaming enthusiast    '];
 
 	//***** scroll delay *****//
 	$('#about-me-button').click(function() {
