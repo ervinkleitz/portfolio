@@ -9,6 +9,11 @@ body {
 	padding-bottom: 3em;
 }
 
+.navbar {
+	background: none;
+	border: none;
+}
+
 .navbar .navbar-nav {
   	display: inline-block;
   	float: none;

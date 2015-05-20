@@ -13,13 +13,9 @@ function onMouseOff() {
 $(document).ready(function(){
 	//***** Declarations *****//
 	var titleCounter = 0,
-		strCounter = 1,
-		scramblerCounter = 1,
 		imgArray = [],
 		index = 1,
-		indexLength = 1,
 		repeats = 0,
-		steadyCtr = 0;
 		images = ['html5','css3','javascript','expressjs','nodejs','angularjs','mongodb','github','npm','jquery','git','ajax'],
 		titles 
 		= ['full-stack javascript engineer    ', 'entrepreneur    ', 'foodie    ', ' javascript web developer    ', 'gaming enthusiast    '];
@@ -52,7 +48,6 @@ $(document).ready(function(){
 
 	//***** Images *****//
 	for ( var i = 0; i < images.length; i++ ){
-		images[i];
 		imgArray.push( '<img src="img/' + images[i] + '.png" class="img-responsive" alt="' + images[i] + '">' );
 	}
 	document.getElementById( 'images-div' ).innerHTML = '<br>' + imgArray.join('');
