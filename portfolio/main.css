@@ -20,7 +20,7 @@ body {
   	vertical-align: top;
 }
 
-.navbar .navbar-collapse {
+.navbar .navbar-collapse, footer {
   	text-align: center;
 }
 
@@ -104,7 +104,24 @@ body {
 	margin: 15px 100px;
 }
 
-.contact {
+footer {
+	padding-top: 1em;
 	background-color: lightgrey;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.footer-logos img {
+	border-radius: 15px;
+	padding: 3px;
+	height: 30px;
+	border: 1px dotted black;
+  	margin: 10px 30px 20px 30px;
+}
+
+.footer-logos img:hover { 
+	-moz-box-shadow: 0 0 10px black; 
+	-webkit-box-shadow: 0 0 10px black; 
+	box-shadow: 0 0 10px black; 
 }
 
