@@ -10,6 +10,14 @@ function onMouseOff() {
 	document.getElementById( 'project1' ).setAttribute( 'src', 'img/project1-bw.png' );
 }
 
+function onMouseHoverMarveldb() {
+	document.getElementById( 'project2' ).setAttribute( 'src', 'img/project2.png' );
+}
+
+function onMouseOffMarveldb() {
+	document.getElementById( 'project2' ).setAttribute( 'src', 'img/project2-bw.png' );
+}
+
 $(document).ready(function(){
 	//***** Declarations *****//
 	var titleCounter = 0,

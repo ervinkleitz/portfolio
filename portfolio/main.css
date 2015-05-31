@@ -1,8 +1,9 @@
 body {
-    background-image: url('img/my-sf.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+	background-image: url('img/my-sf.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
 }
 
 .content {
@@ -15,13 +16,13 @@ body {
 }
 
 .navbar .navbar-nav {
-  	display: inline-block;
-  	float: none;
-  	vertical-align: top;
+	display: inline-block;
+	float: none;
+	vertical-align: top;
 }
 
 .navbar .navbar-collapse, footer {
-  	text-align: center;
+	text-align: center;
 }
 
 .nav li {
@@ -105,7 +106,6 @@ body {
 }
 
 footer {
-	padding-top: 1em;
 	background-color: lightgrey;
 	text-align: center;
 	font-weight: lighter;
@@ -116,7 +116,7 @@ footer {
 	padding: 3px;
 	height: 30px;
 	border: 1px dotted black;
-  	margin: 10px 30px 20px 30px;
+  margin: 10px 30px 20px 30px;
 }
 
 .footer-logos img:hover { 
